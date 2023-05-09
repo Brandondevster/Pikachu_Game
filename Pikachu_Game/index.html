@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    body {
+        background-image: url("img/grassbg.png");
+        
+        
+    }
+</style>
+</head>
+<center>
+<body>
+    <h1>Pikachu Game</h1>
+    
+
+    <!--<button onclick="counter();
+    ">Counter</button>-->
+    <div>
+        <img src="img/pikachu.png" alt="pikachu" class="responsive">
+        
+        
+    </div>
+    <div class="info-container">
+            <!-- hunger,happiness, energy-->
+            <p>🧀 Hunger:<span id="petHunger">0</span> </p>
+            <p>😊Happiness:<span id="petHappiness">0</span> </p>
+            <p>⚡Energy:<span id="petEnergy">0</span> </p>
+    </div>
+    <div>
+        <button onclick="feed();">🧀Feed</button>
+        <button onclick="pet();">👐Pet</button>
+        <button onclick="play();">⚡Play</button>
+    </div>
+    <script src="app.js"></script>
+</body></center>
+</html>
